@@ -77,3 +77,4 @@ Route::name('user.')->middleware('auth', 'checkRole:customer')->group(function (
     //checkout
     Route::get('/checkout', 'user\CheckoutController@index')->name('checkout');
 });
+//test

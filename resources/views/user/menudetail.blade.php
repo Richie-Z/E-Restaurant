@@ -40,7 +40,7 @@
                             </div>
 
                     </div>
-                    <button type="submit" clss="btn btn-sm btn-primary">Add To Cart</button></p>
+                    <button type="submit" class="buy-now btn btn-sm btn-primary">Add To Cart</button></p>
                     </form>
                 </div>
             </div>

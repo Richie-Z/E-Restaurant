@@ -104,7 +104,7 @@ class TransaksiController extends Controller
         $order = Order::findOrFail($id);
         $order->status_order_id  = 2;
         $order->save();
-        return redirect()->route('admin.transaksi')->with('status', 'Berhasil Mengonfirmasi Pembayaran Pesanan');
+        return redirect()->route('admin.transaksi.index')->with('status', 'Berhasil Mengonfirmasi Pembayaran Pesanan');
     }
     public function konfirmasi($id)
     {
